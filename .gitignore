@@ -1,1 +1,4 @@
-/test-data/
+/test-data/**/**
+!/test-data/**/
+!.gitignore
+!file_lvl2.pdf
