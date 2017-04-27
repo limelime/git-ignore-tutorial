@@ -4,7 +4,8 @@ set -e
 
 test_data_dir='test-data'
 td_level2_dir="${test_data_dir}/lvl2"
-td_level3_dir="${test_data_dir}/lvl3"
+td_level3_dir="${td_level2_dir}/lvl3"
+rm -rf "${test_data_dir}"
 mkdir -p "${test_data_dir}"
 mkdir -p "${td_level2_dir}"
 mkdir -p "${td_level3_dir}"
