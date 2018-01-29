@@ -1,4 +1,4 @@
 /test-data/**/**
 !/test-data/**/
 !.gitignore
-!file_lvl2.pdf
+!file_lvl3.pdf

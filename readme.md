@@ -11,4 +11,6 @@ Test out .gitignore
     git check-ignore -v test-data/lvl2/lvl3/file_lvl3.pdf
     git check-ignore -v test-data/lvl2/lvl3/file_lvl3.txt
 
-git commit -m 'pdf' test-data/lvl2/lvl3/file_lvl3.txt
+
+git add test-data/lvl2/lvl3/file_lvl3.pdf
+git commit -m 'pdf' test-data/lvl2/lvl3/file_lvl3.pdf
